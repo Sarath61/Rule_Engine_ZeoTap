@@ -32,9 +32,9 @@ const Container = () => {
         {optionsList.map((option, index) => (
           <div key={index}>
             <button
-              className={` rounded-lg text-white  mx-auto px-2 py-1 border-2 shadow-sm hover:bg-primary/90 ${
+              className={` rounded-lg  mx-auto px-2 py-1 border-2 shadow-sm  ${
                 option.name === select
-                  ? "bg-black text-white"
+                  ? "bg-black text-white hover:bg-primary/90"
                   : "bg-white text-black hover:bg-gray-100"
               }
               }`}
